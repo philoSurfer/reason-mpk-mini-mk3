@@ -1,0 +1,1350 @@
+Propellerhead Remote Mapping File
+File Format Version	1.0.0
+Control Surface Manufacturer	Akai
+Control Surface Model	MPK mini mk2
+Map Version	1.0.0
+
+//This is a remote map template for the Akai MPKmini mk2 and Reason 10
+
+
+Scope	Propellerheads	Reason Document
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Prog Change 1		Stop
+Map	Prog Change 2		Play
+Map	Prog Change 3		Record
+Map	Prog Change 4		Target Next Track
+Map	Prog Change 5		Click On/Off
+Map	Prog Change 6		Loop On/Off
+Map	Prog Change 7		Auto-quantize
+Map	Prog Change 8		Target Previous Track
+
+Map	Pad Button A8		Select Prev Patch for Target Device
+Map	Pad Button A4		Select Next Patch for Target Device
+
+
+
+Scope	Propellerheads	Master Keyboard
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Keyboard		Keyboard
+Map	Sustain		Damper Pedal
+Map	Pitch Bend		Pitch Bend
+Map	Mod Up		Mod Wheel
+Map	Mod Down		Channel Pressure
+
+Scope	Propellerheads	Combinator
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Rotary 1
+Map	Knob 2		Rotary 2
+Map	Knob 3		Rotary 3
+Map	Knob 4		Rotary 4
+Map	Knob 5		Button 1
+Map	Knob 6		Button 2
+Map	Knob 7		Button 3
+Map	Knob 8		Button 4
+
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+
+
+Scope	Propellerheads	Mixer 14:2
+Define Group	Keyboard Shortcut Variations	Level 1-7	Level 8-14
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 8		Master Level
+
+Map	Knob 1		Channel 1 Level			Level 1-7
+Map	Knob 2		Channel 2 Level			Level 1-7
+Map	Knob 3		Channel 3 Level			Level 1-7
+Map	Knob 4		Channel 4 Level			Level 1-7
+Map	Knob 5		Channel 5 Level			Level 1-7
+Map	Knob 6		Channel 6 Level			Level 1-7
+Map	Knob 7		Channel 7 Level			Level 1-7
+
+Map	Pad Button A5		Channel 1 Mute			Level 1-7
+Map	Pad Button A6		Channel 2 Mute			Level 1-7
+Map	Pad Button A7		Channel 3 Mute			Level 1-7
+Map	Pad Button A8		Channel 4 Mute			Level 1-7
+Map	Pad Button A1		Channel 5 Mute			Level 1-7
+Map	Pad Button A2		Channel 6 Mute			Level 1-7
+Map	Pad Button A3		Channel 7 Mute			Level 1-7
+
+Map	Knob 1		Channel 8 Level			Level 8-14
+Map	Knob 2		Channel 9 Level			Level 8-14
+Map	Knob 3		Channel 10 Level			Level 8-14
+Map	Knob 4		Channel 11 Level			Level 8-14
+Map	Knob 5		Channel 12 Level			Level 8-14
+Map	Knob 6		Channel 13 Level			Level 8-14
+Map	Knob 7		Channel 14 Level			Level 8-14
+
+Map	Pad Button A5		Channel 8 Mute			Level 8-14
+Map	Pad Button A6		Channel 9 Mute			Level 8-14
+Map	Pad Button A7		Channel 10 Mute			Level 8-14
+Map	Pad Button A8		Channel 11 Mute			Level 8-14
+Map	Pad Button A1		Channel 12 Mute			Level 8-14
+Map	Pad Button A2		Channel 13 Mute			Level 8-14
+Map	Pad Button A3		Channel 14 Mute			Level 8-14
+
+
+
+Scope	Propellerheads	Line Mixer 6:2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 7		Aux Return Level
+Map	Knob 8		Master Level
+
+Map	Pad Button A5		Channel 1 Mute
+Map	Pad Button A6		Channel 2 Mute
+Map	Pad Button A7		Channel 3 Mute
+Map	Pad Button A8		Channel 4 Mute
+Map	Pad Button A1		Channel 5 Mute
+Map	Pad Button A2		Channel 6 Mute
+
+Map	Knob 1		Channel 1 Level
+Map	Knob 2		Channel 2 Level
+Map	Knob 3		Channel 3 Level
+Map	Knob 4		Channel 4 Level
+Map	Knob 5		Channel 5 Level
+Map	Knob 6		Channel 6 Level
+
+
+
+Scope	Propellerheads	THOR Polysonic Synthesizer
+Define Group	Keyboard Shortcut Variations	Filters	Env	Modulation
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+
+Map	Pad Button A5		Button 1
+Map	Pad Button A6		Button 2
+Map	Pad Button A7		Portamento Mode
+Map	Pad Button A1		Key Mode
+Map	Pad Button A2		Delay On
+Map	Pad Button A3		Chorus On
+
+
+Map	Knob 1		Rotary 1			Filters
+Map	Knob 2		Rotary 2			Filters
+Map	Knob 3		Filter 1 Freq			Filters
+Map	Knob 4		Filter 1 Res			Filters
+Map	Knob 5		Filter 2 Freq			Filters
+Map	Knob 6		Filter 2 Res			Filters
+Map	Knob 7		Filter 3 Freq			Filters
+Map	Knob 8		Filter 3 Res			Filters
+
+Map	Knob 1		Filter Env Attack			Env
+Map	Knob 2		Filter Env Decay			Env
+Map	Knob 3		Filter Env Sustain			Env
+Map	Knob 4		Filter Env Release			Env
+Map	Knob 5		Amp Env Attack			Env
+Map	Knob 6		Amp Env Decay			Env
+Map	Knob 7		Amp Env Sustain			Env
+Map	Knob 8		Amp Env Release			Env
+
+Map	Knob 1		LFO 1 Rate			Modulation
+Map	Knob 2		LFO 2 Rate			Modulation
+Map	Knob 3		Delay Dry Wet			Modulation
+Map	Knob 4		Delay Time			Modulation
+Map	Knob 5		Chorus Dry Wet			Modulation
+Map	Knob 6		Chorus Delay			Modulation
+Map	Knob 7		Chorus Rate			Modulation
+Map	Knob 8		Chorus Feedback			Modulation
+
+
+
+
+Scope	Propellerheads	SubTractor Analog Synthesizer
+Define Group	Keyboard Shortcut Variations	Filter	Amp & LFO	Osc
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+
+Map	Knob 1		Filter Freq			Filter
+Map	Knob 2		Filter Res			Filter
+Map	Knob 3		Filter Env Amount			Filter
+Map	Knob 4		Filter2 Freq			Filter
+Map	Knob 5		Filter Env Attack			Filter
+Map	Knob 6		Filter Env Decay			Filter
+Map	Knob 7		Filter Env Sustain			Filter
+Map	Knob 8		Filter Env Release			Filter
+Map	Pad Button A5		Filter Type			Filter
+Map	Pad Button A6		Filter Link Freq On/Off			Filter
+Map	Pad Button A7		Filter2 On/Off			Filter
+Map	Pad Button A1		Filter Env Invert			Filter
+
+Map	Knob 1		Amp Env Attack			Amp & LFO
+Map	Knob 2		Amp Env Decay			Amp & LFO
+Map	Knob 3		Amp Env Sustain			Amp & LFO
+Map	Knob 4		Amp Env Release			Amp & LFO
+Map	Knob 5		LFO1 Rate			Amp & LFO
+Map	Knob 6		LFO1 Amount			Amp & LFO
+Map	Knob 7		LFO2 Rate			Amp & LFO
+Map	Knob 8		LFO2 Amount			Amp & LFO
+Map	Pad Button A5		LFO1 Wave			Amp & LFO
+Map	Pad Button A6		LFO1 Dest			Amp & LFO
+Map	Pad Button A7		LFO Sync Enable			Amp & LFO
+Map	Pad Button A1		LFO2 Dest			Amp & LFO
+
+Map	Knob 1		Osc1 Phase Diff			Osc
+Map	Knob 2		Osc1 Wave			Osc
+Map	Knob 3		Osc2 Phase Diff			Osc
+Map	Knob 4		Osc2 Wave			Osc
+Map	Knob 5		Osc2 Semitone			Osc
+Map	Knob 6		FM Amount			Osc
+Map	Knob 7		Noise Level			Osc
+Map	Knob 8		Osc Mix			Osc
+Map	Pad Button A5		Osc1 Phase Mode			Osc
+Map	Pad Button A6		Osc1 Octave			Osc
+Map	Pad Button A7		Ring Mod			Osc
+Map	Pad Button A1		Osc2 Phase Mode			Osc
+Map	Pad Button A2		Osc2 Octave			Osc
+Map	Pad Button A3		Noise On/Off			Osc
+
+
+
+Scope	Propellerheads	Malstrom Graintable Synthesizer
+Define Group	Keyboard Shortcut Variations	Osc A	Osc B	Filter
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+
+Map	Knob 1		Oscillator A Motion			Osc A
+Map	Knob 2		Oscillator A Index			Osc A
+Map	Knob 3		Oscillator A Shift			Osc A
+Map	Knob 4		Oscillator A Octave			Osc A
+Map	Knob 5		Oscillator A Attack			Osc A
+Map	Knob 6		Oscillator A Decay			Osc A
+Map	Knob 7		Oscillator A Sustain			Osc A
+Map	Knob 8		Oscillator A Release			Osc A
+Map	Pad Button A5		Oscillator A On/Off			Osc A
+Map	Pad Button A6		Route Oscillator A To Shaper			Osc A
+Map	Pad Button A7		Route Oscillator A To Filter B			Osc A
+
+Map	Knob 1		Oscillator B Motion			Osc B
+Map	Knob 2		Oscillator B Index			Osc B
+Map	Knob 3		Oscillator B Shift			Osc B
+Map	Knob 4		Oscillator B Octave			Osc B
+Map	Knob 5		Oscillator B Attack			Osc B
+Map	Knob 6		Oscillator B Decay			Osc B
+Map	Knob 7		Oscillator B Sustain			Osc B
+Map	Knob 8		Oscillator B Release			Osc B
+Map	Pad Button A5		Oscillator B On/Off			Osc B
+Map	Pad Button A6		Route Oscillator B To Filter B			Osc B
+Map	Pad Button A7		Route Filter B To Shaper			Osc B
+
+Map	Knob 1		Filter A Freq			Filter
+Map	Knob 2		Filter A Resonance			Filter
+Map	Knob 3		Filter B Freq			Filter
+Map	Knob 4		Filter B Resonance			Filter
+Map	Knob 5		Filter Env Attack			Filter
+Map	Knob 6		Filter Env Decay			Filter
+Map	Knob 7		Filter Env Sustain			Filter
+Map	Knob 8		Filter Env Release			Filter
+Map	Pad Button A5		Filter A On/Off			Filter
+Map	Pad Button A6		Filter A Mode			Filter
+Map	Pad Button A7		Filter A Env			Filter
+Map	Pad Button A1		Filter B On/Off			Filter
+Map	Pad Button A2		Filter B Mode			Filter
+Map	Pad Button A3		Filter B Env			Filter
+
+
+
+Scope	Propellerheads	NN19 Digital Sampler
+Define Group	Keyboard Shortcut Variations	Filter	Env & Mod
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+
+Map	Knob 1		Filter Freq			Filter
+Map	Knob 2		Filter Res			Filter
+Map	Knob 3		Filter Kbd Track			Filter
+Map	Knob 4		Filter Env Amount			Filter
+Map	Knob 5		Filter Env Attack			Filter
+Map	Knob 6		Filter Env Decay			Filter
+Map	Knob 7		Filter Env Sustain			Filter
+Map	Knob 8		Filter Env Release			Filter
+Map	Pad Button A5		Filter On/Off			Filter
+Map	Pad Button A6		Filter Mode			Filter
+Map	Pad Button A7		Filter Env Invert			Filter
+
+Map	Knob 1		Osc Octave			Env & Mod
+Map	Knob 2		Portamento			Env & Mod
+Map	Knob 3		LFO Rate			Env & Mod
+Map	Knob 4		LFO Amount			Env & Mod
+Map	Knob 5		Amp Env Attack			Env & Mod
+Map	Knob 6		Amp Env Decay			Env & Mod
+Map	Knob 7		Amp Env Sustain			Env & Mod
+Map	Knob 8		Amp Env Release			Env & Mod
+Map	Pad Button A5		LFO Wave			Env & Mod
+Map	Pad Button A6		LFO Dest			Env & Mod
+Map	Pad Button A7		LFO Sync Enable			Env & Mod
+
+
+
+Scope	Propellerheads	NN-XT Advanced Sampler
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+Map	Knob 1		Filter Freq
+Map	Knob 2		Filter Res
+Map	Knob 3		Amp Env Attack
+Map	Knob 4		Amp Env Decay
+Map	Knob 5		Amp Env Release
+Map	Knob 6		Mod Env Decay
+Map	Knob 7		External Controller
+Map	Knob 8		Master Volume
+
+
+Scope	Propellerheads	Dr.REX Loop Player
+Define Group	Keyboard Shortcut Variations	Filter & Osc	Env
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A5		Select Loop 1
+Map	Pad Button A6		Select Loop 2
+Map	Pad Button A7		Select Loop 3
+Map	Pad Button A8		Select Loop 4
+Map	Pad Button A1		Select Loop 5
+Map	Pad Button A2		Select Loop 6
+Map	Pad Button A3		Select Loop 7
+Map	Pad Button A4		Select Loop 8
+
+Map	Knob 1		Filter Freq			Filter & Osc
+Map	Knob 2		Filter Res			Filter & Osc
+Map	Knob 3		Filter Env Amount			Filter & Osc
+Map	Knob 4		Filter Env Vel Amount			Filter & Osc
+Map	Knob 5		Osc Octave			Filter & Osc
+Map	Knob 6		Transpose			Filter & Osc
+Map	Knob 7		LFO1 Rate			Filter & Osc
+Map	Knob 8		LFO1 Amount			Filter & Osc
+
+Map	Knob 1		Filter Env Attack			Env
+Map	Knob 2		Filter Env Decay			Env
+Map	Knob 3		Filter Env Sustain			Env
+Map	Knob 4		Filter Env Release			Env
+Map	Knob 5		Amp Env Attack			Env
+Map	Knob 6		Amp Env Decay			Env
+Map	Knob 7		Amp Env Sustain			Env
+Map	Knob 8		Amp Env Release			Env
+
+
+
+Scope	Propellerheads	Redrum Drum Computer
+Define Group	Keyboard Shortcut Variations	Level	Pitch	Length
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+
+Map	Knob 1		Drum 1 Level			Level
+Map	Knob 2		Drum 2 Level			Level
+Map	Knob 3		Drum 3 Level			Level
+Map	Knob 4		Drum 4 Level			Level
+Map	Knob 5		Drum 5 Level			Level
+Map	Knob 6		Drum 6 Level			Level
+Map	Knob 7		Drum 7 Level			Level
+Map	Knob 8		Drum 8 Level			Level
+
+Map	Knob 1		Drum 1 Pitch			Pitch
+Map	Knob 2		Drum 2 Pitch			Pitch
+Map	Knob 3		Drum 3 Pitch			Pitch
+Map	Knob 4		Drum 4 Pitch			Pitch
+Map	Knob 5		Drum 5 Pitch			Pitch
+Map	Knob 6		Drum 6 Pitch			Pitch
+Map	Knob 7		Drum 7 Pitch			Pitch
+Map	Knob 8		Drum 8 Pitch			Pitch
+
+Map	Knob 1		Drum 1 Length			Length
+Map	Knob 2		Drum 2 Length			Length
+Map	Knob 3		Drum 3 Length			Length
+Map	Knob 4		Drum 4 Length			Length
+Map	Knob 5		Drum 5 Length			Length
+Map	Knob 6		Drum 6 Length			Length
+Map	Knob 7		Drum 7 Length			Length
+Map	Knob 8		Drum 8 Length			Length
+
+
+
+Scope	Propellerheads	Kong Drum Designer
+Define Group	Keyboard Shortcut Variations	Levels	Pitch	Decay	Master
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+
+Map	Knob 1		Drum 1 Level			Levels
+Map	Knob 2		Drum 2 Level			Levels
+Map	Knob 3		Drum 3 Level			Levels
+Map	Knob 4		Drum 4 Level			Levels
+Map	Knob 5		Drum 5 Level			Levels
+Map	Knob 6		Drum 6 Level			Levels
+Map	Knob 7		Drum 7 Level			Levels
+Map	Knob 8		Drum 8 Level			Levels
+
+Map	Knob 1		Drum 1 Pitch Offset			Pitch
+Map	Knob 2		Drum 2 Pitch Offset			Pitch
+Map	Knob 3		Drum 3 Pitch Offset			Pitch
+Map	Knob 4		Drum 4 Pitch Offset			Pitch
+Map	Knob 5		Drum 5 Pitch Offset			Pitch
+Map	Knob 6		Drum 6 Pitch Offset			Pitch
+Map	Knob 7		Drum 7 Pitch Offset			Pitch
+Map	Knob 8		Drum 8 Pitch Offset			Pitch
+
+Map	Knob 1		Drum 1 Decay Offset			Decay
+Map	Knob 2		Drum 2 Decay Offset			Decay
+Map	Knob 3		Drum 3 Decay Offset			Decay
+Map	Knob 4		Drum 4 Decay Offset			Decay
+Map	Knob 5		Drum 5 Decay Offset			Decay
+Map	Knob 6		Drum 6 Decay Offset			Decay
+Map	Knob 7		Drum 7 Decay Offset			Decay
+Map	Knob 8		Drum 8 Decay Offset			Decay
+
+
+Map	Knob 1		Bus FX P1			Master
+Map	Knob 2		Bus FX P2			Master
+Map	Knob 3		Master FX P1			Master
+Map	Knob 4		Master FX P2			Master
+Map	Knob 8		Master Level			Master
+
+
+
+Scope	Propellerheads	MClass Equalizer
+Define Group	Keyboard Shortcut Variations	Low&Para1	Para2&Hi
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 1		Low Shelf Frequency			Low&Para1
+Map	Knob 2		Low Shelf Gain			Low&Para1
+Map	Knob 3		Low Shelf Q			Low&Para1
+Map	Knob 4		Parametric 1 Frequency			Low&Para1
+Map	Knob 5		Parametric 1 Gain			Low&Para1
+Map	Knob 6		Parametric 1 Q			Low&Para1
+
+Map	Knob 1		Parametric 2 Frequency			Para2&Hi
+Map	Knob 2		Parametric 2 Gain			Para2&Hi
+Map	Knob 3		Parametric 2 Q			Para2&Hi
+Map	Knob 4		Hi Shelf Frequency			Para2&Hi
+Map	Knob 5		Hi Shelf Gain			Para2&Hi
+Map	Knob 6		Hi Shelf Q			Para2&Hi
+
+Map	Pad Button A1		Low Cut Enable
+Map	Pad Button A2		Low Shelf Enable
+Map	Pad Button A5		Parametric 1 Enable
+Map	Pad Button A6		Parametric 2 Enable
+Map	Pad Button A7		Hi Shelf Enable
+
+
+Scope	Propellerheads	MClass Stereo Imager
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Low Width
+Map	Knob 2		X-Over Frequency
+Map	Knob 3		High Width
+Map	Pad Button A5		Solo Mode
+
+Scope	Propellerheads	MClass Compressor
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Input Gain
+Map	Knob 2		Threshold
+Map	Knob 3		Ratio
+Map	Knob 4		Attack
+Map	Knob 5		Release
+Map	Knob 6		Output Gain
+Map	Pad Button A5		Soft Knee
+Map	Pad Button A6		Adapt
+
+
+Scope	Propellerheads	MClass Maximizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Input Gain
+Map	Knob 2		Attack Speed
+Map	Knob 3		Release Speed
+Map	Knob 4		Output Gain
+Map	Knob 5		Soft Clip Amount
+Map	Pad Button A5		Limiter Enable
+Map	Pad Button A6		Soft Clip Enable
+
+
+Scope	Propellerheads	RV7000 Advanced Reverb
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Decay
+Map	Knob 2		HF Damp
+Map	Knob 3		Hi EQ
+Map	Knob 4		Dry/Wet
+Map	Pad Button A5		Gate On/Off
+Map	Pad Button A6		EQ On/Off
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+
+
+Scope	Propellerheads	Scream 4 Distortion
+Define Group	Keyboard Shortcut Variations	Damage & Cut	Body
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 8		Master Level
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+
+Map	Knob 1		Damage Control			Damage & Cut
+Map	Knob 2		Damage Type			Damage & Cut
+Map	Knob 3		Parameter 1			Damage & Cut
+Map	Knob 4		Parameter 2			Damage & Cut
+Map	Knob 5		Cut Lo			Damage & Cut
+Map	Knob 6		Cut Mid			Damage & Cut
+Map	Knob 7		Cut Hi			Damage & Cut
+Map	Pad Button A5		Damage On/Off
+Map	Pad Button A6		Cut On/Off
+
+Map	Knob 1		Body Resonance			Body
+Map	Knob 2		Body Scale			Body
+Map	Knob 3		Body Auto			Body
+Map	Knob 4		Body Type			Body
+Map	Pad Button A7		Body On/Off
+
+Scope	Propellerheads	BV512 Digital Vocoder
+Define Group	Keyboard Shortcut Variations	Basic	Band 1-8	Band 9-16	Band 17-24	Band 25-32
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A1		Hold
+
+Map	Knob 1		Shift			Basic
+Map	Knob 2		HF Emphasis			Basic
+Map	Knob 3		Attack			Basic
+Map	Knob 4		Decay			Basic
+Map	Knob 8		Dry/Wet			Basic
+Map	Pad Button A5		Band Count			Basic
+Map	Pad Button A6		Vocoder/Equalizer			Basic
+
+Map	Knob 1		Band Level 1			Band 1-8
+Map	Knob 2		Band Level 2			Band 1-8
+Map	Knob 3		Band Level 3			Band 1-8
+Map	Knob 4		Band Level 4			Band 1-8
+Map	Knob 5		Band Level 5			Band 1-8
+Map	Knob 6		Band Level 6			Band 1-8
+Map	Knob 7		Band Level 7			Band 1-8
+Map	Knob 8		Band Level 8			Band 1-8
+
+Map	Knob 1		Band Level 9			Band 9-16
+Map	Knob 2		Band Level 10			Band 9-16
+Map	Knob 3		Band Level 11			Band 9-16
+Map	Knob 4		Band Level 12			Band 9-16
+Map	Knob 5		Band Level 13			Band 9-16
+Map	Knob 6		Band Level 14			Band 9-16
+Map	Knob 7		Band Level 15			Band 9-16
+Map	Knob 8		Band Level 16			Band 9-16
+
+Map	Knob 1		Band Level 17			Band 17-24
+Map	Knob 2		Band Level 18			Band 17-24
+Map	Knob 3		Band Level 19			Band 17-24
+Map	Knob 4		Band Level 20			Band 17-24
+Map	Knob 5		Band Level 21			Band 17-24
+Map	Knob 6		Band Level 22			Band 17-24
+Map	Knob 7		Band Level 23			Band 17-24
+Map	Knob 8		Band Level 24			Band 17-24
+
+Map	Knob 1		Band Level 25			Band 25-32
+Map	Knob 2		Band Level 26			Band 25-32
+Map	Knob 3		Band Level 27			Band 25-32
+Map	Knob 4		Band Level 28			Band 25-32
+Map	Knob 5		Band Level 29			Band 25-32
+Map	Knob 6		Band Level 30			Band 25-32
+Map	Knob 7		Band Level 31			Band 25-32
+Map	Knob 8		Band Level 32			Band 25-32
+
+
+
+Scope	Propellerheads	RV-7 Digital Reverb
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pad Button A5		Algorithm
+Map	Knob 1		Size
+Map	Knob 2		Decay
+Map	Knob 3		Damping
+Map	Knob 4		Dry/Wet
+
+Scope	Propellerheads	DDL-1 Digital Delay Line
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		DelayTime (steps)
+Map	Knob 2		DelayTime (ms)
+Map	Knob 3		Feedback
+Map	Knob 4		Pan
+Map	Knob 5		Dry/Wet Balance
+Map	Pad Button A5		Unit
+Map	Pad Button A6		Step Length
+
+Scope	Propellerheads	D-11 Foldback Distortion
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Amount
+Map	Knob 2		Foldback
+
+Scope	Propellerheads	ECF-42 Envelope Controlled Filter
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pad Button A5		Mode
+Map	Knob 1		Frequency
+Map	Knob 2		Resonance
+Map	Knob 3		Env Amount
+Map	Knob 4		Velocity
+Map	Knob 5		Attack
+Map	Knob 6		Decay
+Map	Knob 7		Sustain
+Map	Knob 8		Release
+
+Scope	Propellerheads	CF-101 Chorus/Flanger
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Delay
+Map	Knob 2		Feedback
+Map	Knob 3		Rate
+Map	Knob 4		Modulation Amount
+Map	Pad Button A5		LFO Sync Enable
+Map	Pad Button A6		Send/Insert Mode
+
+
+Scope	Propellerheads	PH-90 Phaser
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Frequency
+Map	Knob 2		Split
+Map	Knob 3		Width
+Map	Knob 4		Rate
+Map	Knob 5		Frequency Modulation
+Map	Knob 6		Feedback
+Map	Pad Button A5		LFO Sync Enable
+
+Scope	Propellerheads	UN-16 Unison
+Define Group	Keyboard Shortcut Variations	Env	Filter
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Detune
+Map	Knob 2		Dry/Wet
+Map	Pad Button A5		Voice Count
+
+
+Scope	Propellerheads	COMP-01 Compressor/Limiter
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Ratio
+Map	Knob 2		Threshold
+Map	Knob 3		Attack
+Map	Knob 4		Release
+
+Scope	Propellerheads	PEQ-2 Two Band Parametric EQ
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Filter A Freq
+Map	Knob 2		Filter A Q
+Map	Knob 3		Filter A Gain
+Map	Pad Button A5		Filter B On/Off
+Map	Knob 5		Filter B Freq
+Map	Knob 6		Filter B Q
+Map	Knob 7		Filter B Gain
+
+
+Scope	Propellerheads	RPG-8 Monophonic Arpeggiator
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A5		Arpeggiator Enable
+Map	Pad Button A6		Hold
+Map	Pad Button A7		Pattern Enable
+Map	Pad Button A1		Pattern Length Down
+Map	Pad Button A2		Pattern Length Up
+Map	Pad Button A3		Single Note Repeat
+
+
+Map	Knob 1		Rate
+Map	Knob 2		Gate Length
+Map	Knob 3		Mode
+Map	Knob 4		Velocity/Manual
+Map	Knob 5		Octave
+Map	Knob 6		Insert
+Map	Knob 7		Shuffle
+Map	Knob 8		Octave Shift
+
+
+
+Scope 	Propellerheads 	ReGroove Mixer
+Define Group 	Keyboard Shortcut Variations	Groove	Shuffle	Slide
+// Control Surface Item Key Remotable Item Scale Mode
+
+Map	Knob 1		A1 Groove Amount			Groove
+Map	Knob 2		A2 Groove Amount			Groove
+Map	Knob 3		A3 Groove Amount			Groove
+Map	Knob 4		A4 Groove Amount 			Groove
+Map	Knob 5		A5 Groove Amount			Groove
+Map	Knob 6		A6 Groove Amount			Groove
+Map	Knob 7		A7 Groove Amount			Groove
+Map	Knob 8		A8 Groove Amount			Groove
+
+Map	Pad Button A1		A1 Pre-Align
+Map	Pad Button A2		A2 Pre-Align
+Map	Pad Button A3		A3 Pre-Align
+Map	Pad Button A4		A4 Pre-Align
+Map	Pad Button A5		A5 Pre-Align
+Map	Pad Button A6		A6 Pre-Align
+Map	Pad Button A7		A7 Pre-Align
+Map	Pad Button A8		A8 Pre-Align
+
+Map	Knob 1		A1 Shuffle			Shuffle
+Map	Knob 2		A2 Shuffle			Shuffle
+Map	Knob 3		A3 Shuffle			Shuffle
+Map	Knob 4		A4 Shuffle			Shuffle
+Map	Knob 5		A5 Shuffle			Shuffle
+Map	Knob 6		A6 Shuffle			Shuffle
+Map	Knob 7		A7 Shuffle			Shuffle
+Map	Knob 8		A8 Shuffle			Shuffle
+
+
+Map	Pad Button A1		A1 Use Global Shuffle			Shuffle
+Map	Pad Button A2		A2 Use Global Shuffle			Shuffle
+Map	Pad Button A3		A3 Use Global Shuffle			Shuffle
+Map	Pad Button A4		A4 Use Global Shuffle			Shuffle
+Map	Pad Button A5		A5 Use Global Shuffle			Shuffle
+Map	Pad Button A6		A6 Use Global Shuffle			Shuffle
+Map	Pad Button A7		A7 Use Global Shuffle			Shuffle
+Map	Pad Button A8		A8 Use Global Shuffle			Shuffle
+
+
+Map	Knob 1		A1 Slide			Slide
+Map	Knob 2		A2 Slide			Slide
+Map	Knob 3		A3 Slide			Slide
+Map	Knob 4		A4 Slide			Slide
+Map	Knob 5		A5 Slide			Slide
+Map	Knob 6		A6 Slide			Slide
+Map	Knob 7		A7 Slide			Slide
+Map	Knob 8		A8 Slide			Slide
+
+
+
+Scope	Propellerheads	ID8 Instrument Device
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A8		Select Previous Preset
+Map	Pad Button A4		Select Next Preset
+
+Map	Pad Button A5		Sound A
+Map	Pad Button A6		Sound B
+Map	Pad Button A1		Sound C
+Map	Pad Button A2		Sound D
+Map	Pad Button A7		Select Previous Category
+Map	Pad Button A3		Select Next Category
+
+Map	Knob 1		Parameter 1
+Map	Knob 2		Parameter 2
+Map	Knob 3		Volume
+
+Scope	Propellerheads	Line 6 Guitar Amp
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+
+Map	Knob 1		Drive
+Map	Knob 2		Bass
+Map	Knob 3		Middle
+Map	Knob 4		Treble
+Map	Knob 5		Presence
+Map	Knob 8		Volume
+
+Map	Pad Button A5		Enabled
+
+Map	Pad Button A6		Wah Pedal On
+Map	Knob 6		Wah Pedal
+Map	Knob 7		Volume Pedal
+
+
+Scope	Propellerheads	Line 6 Bass Amp
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A4		Select Next Patch
+
+Map	Knob 1		Drive
+Map	Knob 2		Bass
+Map	Knob 3		Lo Mid
+Map	Knob 4		Hi Mid
+Map	Knob 5		Treble
+Map	Knob 8		Volume
+
+Map	Pad Button A5		Enabled
+
+Map	Pad Button A6		Compressor On
+Map	Knob 6		Comp Threshold
+
+
+
+Scope	Propellerheads	Neptune Pitch Adjuster
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A5		Pitch Adjust On/Off
+Map	Pad Button A6		Scale Memory
+Map	Pad Button A7		Transpose On/Off
+Map	Pad Button A8		Formant On/Off
+
+Map	Pad Button A1		Low Freq Input
+Map	Pad Button A2		Wide Vibrato
+Map	Pad Button A3		Live Mode
+Map	Pad Button A4		MIDI Destination
+
+Map	Knob 1		Correction Speed
+Map	Knob 2		Preserve Expression
+Map	Knob 3		Semitones
+Map	Knob 4		Formant Shift
+Map	Knob 5		Vibrato Rate
+Map	Knob 7		Pitched Signal Level
+Map	Knob 8		Voice Synth Level
+
+
+
+//<	20110628
+Scope	Propellerheads	Reason Master Section
+Define Group	Keyboard Shortcut Variations	Levels	Master	Returns
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A7		Previous 8 Remote Base Channel
+Map	Pad Button A8		Next 8 Remote Base Channel
+
+Map	Knob 1		Channel 1 Level			Levels
+Map	Knob 2		Channel 2 Level			Levels
+Map	Knob 3		Channel 3 Level			Levels
+Map	Knob 4		Channel 4 Level			Levels
+Map	Knob 5		Channel 5 Level			Levels
+Map	Knob 6		Channel 6 Level			Levels
+Map	Knob 7		Channel 7 Level			Levels
+Map	Knob 8		Channel 8 Level			Levels
+
+Map	Pad Button A1		Channel 1 Mute			Levels
+Map	Pad Button A2		Channel 2 Mute			Levels
+Map	Pad Button A3		Channel 3 Mute			Levels
+Map	Pad Button A4		Channel 4 Mute			Levels
+Map	Pad Button A5		Channel 5 Mute			Levels
+Map	Pad Button A6		Channel 6 Mute			Levels
+Map	Pad Button A7		Channel 7 Mute			Levels
+Map	Pad Button A8		Channel 8 Mute			Levels
+
+
+Map	Knob 1		Rotary 1			Master
+Map	Knob 2		Rotary 2			Master
+Map	Knob 3		Rotary 3			Master
+Map	Knob 4		Rotary 4			Master
+Map	Knob 5		Threshold			Master
+Map	Knob 6		Ratio			Master
+Map	Knob 7		Make-Up Gain			Master
+Map	Knob 8		Master Level			Master
+
+Map	Pad Button A1		Bypass Insert FX			Master
+Map	Pad Button A2		Compressor On			Master
+Map	Pad Button A3		Previous 8 Remote Base Channel			Master
+Map	Pad Button A4		Next 8 Remote Base Channel			Master
+Map	Pad Button A5		Button 1			Master
+Map	Pad Button A6		Button 2			Master
+Map	Pad Button A7		Button 3			Master
+Map	Pad Button A8		Button 4			Master
+
+
+Map	Knob 1		FX1 Return Level			Returns
+Map	Knob 2		FX2 Return Level			Returns
+Map	Knob 3		FX3 Return Level			Returns
+Map	Knob 4		FX4 Return Level			Returns
+Map	Knob 5		FX5 Return Level			Returns
+Map	Knob 6		FX6 Return Level			Returns
+Map	Knob 7		FX7 Return Level			Returns
+Map	Knob 8		FX8 Return Level			Returns
+
+Map	Pad Button A1		FX1 Mute			Returns
+Map	Pad Button A2		FX2 Mute			Returns
+Map	Pad Button A3		FX3 Mute			Returns
+Map	Pad Button A4		FX4 Mute			Returns
+Map	Pad Button A5		FX5 Mute			Returns
+Map	Pad Button A6		FX6 Mute			Returns
+Map	Pad Button A7		FX7 Mute			Returns
+Map	Pad Button A8		FX8 Mute			Returns
+
+
+
+
+
+//<	20110628
+Scope	Propellerheads	Reason Main Mixer Channel
+Define Group	Keyboard Shortcut Variations	Inserts	EQ	FX Sends	Dyn
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 1		Rotary 1			Inserts
+Map	Knob 2		Rotary 2			Inserts
+Map	Knob 3		Rotary 3			Inserts
+Map	Knob 4		Rotary 4			Inserts
+Map	Knob 5		LPF Frequency			Inserts
+Map	Knob 6		HPF Frequency			Inserts
+Map	Knob 7		Pan			Inserts
+Map	Knob 8		Level			Inserts
+
+Map	Pad Button A5		Button 1			Inserts
+Map	Pad Button A6		Button 2			Inserts
+Map	Pad Button A7		Button 3			Inserts
+Map	Pad Button A8		Button 4			Inserts
+Map	Pad Button A1		LPF On			Inserts
+Map	Pad Button A2		HPF On			Inserts
+Map	Pad Button A3		Mute			Inserts
+Map	Pad Button A4		Solo			Inserts
+
+Map	Knob 1		LF Gain			EQ
+Map	Knob 2		LF Frequency			EQ
+Map	Knob 3		LMF Gain			EQ
+Map	Knob 4		LMF Frequency			EQ
+Map	Knob 5		HMF Gain			EQ
+Map	Knob 6		HMF Frequency			EQ
+Map	Knob 7		HF Gain			EQ
+Map	Knob 8		HF Frequency			EQ
+
+Map	Pad Button A5		EQ On			EQ
+Map	Pad Button A6		EQ E Mode			EQ
+
+
+Map	Knob 1		FX1 Send Level			FX Sends
+Map	Knob 2		FX2 Send Level			FX Sends
+Map	Knob 3		FX3 Send Level			FX Sends
+Map	Knob 4		FX4 Send Level			FX Sends
+Map	Knob 5		FX5 Send Level			FX Sends
+Map	Knob 6		FX6 Send Level			FX Sends
+Map	Knob 7		FX7 Send Level			FX Sends
+Map	Knob 8		FX8 Send Level			FX Sends
+
+Map	Pad Button A1		FX1 Send On			FX Sends
+Map	Pad Button A2		FX2 Send On			FX Sends
+Map	Pad Button A3		FX3 Send On			FX Sends
+Map	Pad Button A4		FX4 Send On			FX Sends
+Map	Pad Button A5		FX5 Send On			FX Sends
+Map	Pad Button A6		FX6 Send On			FX Sends
+Map	Pad Button A7		FX7 Send On			FX Sends
+Map	Pad Button A8		FX8 Send On			FX Sends
+
+Map	Knob 1		Input Gain			Dyn
+Map	Knob 2		C Ratio			Dyn
+Map	Knob 3		C Threshold			Dyn
+Map	Knob 4		C Release			Dyn
+Map	Knob 5		G Range			Dyn
+Map	Knob 6		G Threshold			Dyn
+Map	Knob 7		G Release			Dyn
+Map	Knob 8		G Hold			Dyn
+
+Map	Pad Button A5		Invert Phase			Dyn
+Map	Pad Button A6		Comp On			Dyn
+Map	Pad Button A7		C Peak			Dyn
+Map	Pad Button A8		C Fast Atk			Dyn
+Map	Pad Button A1		Gate On			Dyn
+Map	Pad Button A2		Expander			Dyn
+Map	Pad Button A3		G Fast Atk			Dyn
+Map	Pad Button A4		Key On			Dyn
+
+
+
+
+
+
+//<	20110319
+Scope	Propellerheads	Reason Essentials Master Section
+Define Group	Keyboard Shortcut Variations	Levels	Master	Returns
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pad Button A7		Previous 8 Remote Base Channel
+Map	Pad Button A8		Next 8 Remote Base Channel
+Map	Knob 1		Channel 1 Level			Levels
+Map	Knob 2		Channel 2 Level			Levels
+Map	Knob 3		Channel 3 Level			Levels
+Map	Knob 4		Channel 4 Level			Levels
+Map	Knob 5		Channel 5 Level			Levels
+Map	Knob 6		Channel 6 Level			Levels
+Map	Knob 7		Channel 7 Level			Levels
+Map	Knob 8		Channel 8 Level			Levels
+Map	Pad Button A1		Channel 1 Mute			Levels
+Map	Pad Button A2		Channel 2 Mute			Levels
+Map	Pad Button A3		Channel 3 Mute			Levels
+Map	Pad Button A4		Channel 4 Mute			Levels
+Map	Pad Button A5		Channel 5 Mute			Levels
+Map	Pad Button A6		Channel 6 Mute			Levels
+Map	Pad Button A7		Channel 7 Mute			Levels
+Map	Pad Button A8		Channel 8 Mute			Levels
+
+Map	Knob 1		Rotary 1			Master
+Map	Knob 2		Rotary 2			Master
+Map	Knob 3		Rotary 3			Master
+Map	Knob 4		Rotary 4			Master
+Map	Knob 5		Threshold			Master
+Map	Knob 6		Ratio			Master
+Map	Knob 7		Make-Up Gain			Master
+Map	Knob 8		Master Level			Master
+Map	Pad Button A1		Bypass Insert FX			Master
+Map	Pad Button A2		Compressor On			Master
+Map	Pad Button A3		Previous 8 Remote Base Channel			Master
+Map	Pad Button A4		Next 8 Remote Base Channel			Master
+Map	Pad Button A5		Button 1			Master
+Map	Pad Button A6		Button 2			Master
+Map	Pad Button A7		Button 3			Master
+Map	Pad Button A8		Button 4			Master
+
+Map	Knob 1		FX1 Return Level			Returns
+Map	Knob 2		FX2 Return Level			Returns
+Map	Knob 3		FX3 Return Level			Returns
+Map	Knob 4		FX4 Return Level			Returns
+Map	Knob 5		FX1 Pan			Returns
+Map	Knob 6		FX2 Pan			Returns
+Map	Knob 7		FX3 Pan			Returns
+Map	Knob 8		FX4 Pan			Returns
+Map	Pad Button A1		FX1 Mute			Returns
+Map	Pad Button A2		FX2 Mute			Returns
+Map	Pad Button A3		FX3 Mute			Returns
+Map	Pad Button A4		FX4 Mute			Returns
+Map	Pad Button A5		Select Prev Insert FX Patch			Returns
+Map	Pad Button A6		Select Next Insert FX Patch			Returns
+
+
+
+//<	20110319
+Scope	Propellerheads	Reason Essentials Main Mixer Channel
+Define Group	Keyboard Shortcut Variations	Inserts	EQ & Dyn	FX Sends
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Rotary 1			Inserts
+Map	Knob 2		Rotary 2			Inserts
+Map	Knob 3		Rotary 3			Inserts
+Map	Knob 4		Rotary 4			Inserts
+Map	Knob 7		Pan			Inserts
+Map	Knob 8		Level			Inserts
+Map	Pad Button A5		Button 1			Inserts
+Map	Pad Button A6		Button 2			Inserts
+Map	Pad Button A7		Button 3			Inserts
+Map	Pad Button A8		Button 4			Inserts
+Map	Pad Button A3		Mute			Inserts
+Map	Pad Button A4		Solo			Inserts
+
+Map	Knob 1		LF Gain			EQ & Dyn
+Map	Knob 2		LF Frequency			EQ & Dyn
+Map	Knob 6		Input Gain			EQ & Dyn
+Map	Knob 7		HF Gain			EQ & Dyn
+Map	Knob 8		HF Frequency			EQ & Dyn
+Map	Pad Button A5		EQ On			EQ & Dyn
+Map	Pad Button A6		Invert Phase			EQ & Dyn
+
+Map	Knob 1		FX1 Send Level			FX Sends
+Map	Knob 2		FX2 Send Level			FX Sends
+Map	Knob 3		FX3 Send Level			FX Sends
+Map	Knob 4		FX4 Send Level			FX Sends
+Map	Pad Button A1		FX1 Send On			FX Sends
+Map	Pad Button A2		FX2 Send On			FX Sends
+Map	Pad Button A3		FX3 Send On			FX Sends
+Map	Pad Button A4		FX4 Send On			FX Sends
+Map	Pad Button A5		FX1 Pre Fader			FX Sends
+Map	Pad Button A6		FX2 Pre Fader			FX Sends
+Map	Pad Button A7		FX3 Pre Fader			FX Sends
+Map	Pad Button A8		FX4 Pre Fader			FX Sends
+
+//<	20110328
+
+
+//<	20110628
+Scope	Propellerheads	Alligator
+Define Group	Keyboard Shortcut Variations	Aux1	Aux2	Aux3	Aux4	Aux5
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pad Button A4		Select Next Patch
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A1		Pattern Enable			Aux1
+Map	Pad Button A1		Gate 1 Trig
+Map	Pad Button A2		Gate 2 Trig
+Map	Pad Button A3		Gate 3 Trig
+Map	Pad Button A5		Shuffle			Aux1
+Map	Pad Button A5		High Pass Filter On
+Map	Pad Button A6		Band Pass Filter On
+Map	Pad Button A7		Low Pass Filter On
+Map	Pad Button A6		LFOSync			Aux1
+Map	Pad Button A7		DelaySync			Aux1
+Map	Pad Button A3		Enabled			Aux1
+Map	Knob 1		Pattern
+Map	Knob 1		Resolution			Aux1
+Map	Knob 1		Shift			Aux2
+Map	Knob 2		LFO Freq			Aux3
+Map	Knob 1		LFO Waveform			Aux3
+Map	Knob 8		Delay Pan			Aux3
+Map	Knob 6		Delay Time			Aux3
+Map	Knob 7		Delay Feedback			Aux3
+Map	Knob 2		High Pass Frequency
+Map	Knob 3		Band Pass Frequency
+Map	Knob 4		Low Pass Frequency
+Map	Knob 5		High Pass Volume
+Map	Knob 6		Band Pass Volume
+Map	Knob 7		Low Pass Volume
+Map	Knob 8		Master Volume
+Map	Knob 8		Ducking			Aux5
+Map	Knob 8		Dry Pan			Aux1
+Map	Knob 8		Dry Volume			Aux2
+Map	Knob 5		High Pass Drive Amount			Aux2
+Map	Knob 6		Band Pass Drive Amount			Aux2
+Map	Knob 7		Low Pass Drive Amount			Aux2
+Map	Knob 2		High Pass Resonance			Aux1
+Map	Knob 3		Band Pass Resonance			Aux1
+Map	Knob 4		Low Pass Resonance			Aux1
+Map	Knob 7		Phaser Rate			Aux4
+Map	Knob 8		Phaser Feedback			Aux4
+Map	Knob 3		High Pass Phaser Amount			Aux3
+Map	Knob 4		Band Pass Phaser Amount			Aux3
+Map	Knob 5		Low Pass Phaser Amount			Aux3
+Map	Knob 2		High Pass Delay Amount			Aux2
+Map	Knob 3		Band Pass Delay Amount			Aux2
+Map	Knob 4		Low Pass Delay Amount			Aux2
+Map	Knob 1		Amp Env Attack			Aux4
+Map	Knob 2		Amp Env Decay			Aux4
+Map	Knob 3		Amp Env Release			Aux4
+Map	Knob 4		Filter Env Attack			Aux4
+Map	Knob 5		Filter Env Decay			Aux4
+Map	Knob 6		Filter Env Release			Aux4
+Map	Knob 5		High Pass Pan			Aux1
+Map	Knob 6		Band Pass Pan			Aux1
+Map	Knob 7		Low Pass Pan			Aux1
+Map	Knob 1		High Pass LFO Amount			Aux5
+Map	Knob 2		Band Pass LFO Amount			Aux5
+Map	Knob 3		Low Pass LFO Amount			Aux5
+Map	Knob 4		High Pass Env Amount			Aux5
+Map	Knob 5		Band Pass Env Amount			Aux5
+Map	Knob 6		Low Pass Env Amount			Aux5
+
+
+Scope	Propellerheads	Pulveriser
+Define Group	Keyboard Shortcut Variations	Aux1	Aux2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pad Button A4		Select Next Patch
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A1		Routing
+Map	Pad Button A2		Follower Trig
+Map	Pad Button A3		Sync
+Map	Pad Button A5		Tremor Spread
+Map	Pad Button A7		Enabled
+Map	Knob 1		Squash
+Map	Knob 2		Dirt
+Map	Knob 3		Filter Frequency
+Map	Knob 4		Peak
+Map	Knob 5		Tremor Rate
+Map	Knob 6		Follower Threshold
+Map	Knob 7		Follower Attack			Aux1
+Map	Knob 8		Follower Release			Aux1
+Map	Knob 8		Volume
+Map	Knob 3		Filter Mode			Aux1
+Map	Knob 1		Release			Aux1
+Map	Knob 2		Tone			Aux1
+Map	Knob 4		Tremor Waveform			Aux1
+Map	Knob 5		Tremor Lag			Aux1
+Map	Knob 6		Tremor to Frequency			Aux1
+Map	Knob 6		Follower to Rate			Aux2
+Map	Knob 7		Follower to Frequency			Aux2
+Map	Knob 8		Tremor to Volume			Aux2
+Map	Knob 7		Blend
+
+
+Scope	Propellerheads	The Echo
+Define Group	Keyboard Shortcut Variations	Aux1	Aux2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pad Button A4		Select Next Patch
+Map	Pad Button A8		Select Previous Patch
+Map	Pad Button A1		Trig
+Map	Pad Button A2		Keep Pitch
+Map	Pad Button A3		Sync
+Map	Pad Button A5		Ping-Pong Mode
+Map	Pad Button A6		Diffuse On
+Map	Pad Button A7		Filter On
+Map	Pad Button A7		Enabled			Aux1
+Map	Knob 1		Input Mode
+Map	Knob 2		Delay Time
+Map	Knob 3		Right Ch Time Offset
+Map	Knob 4		Ping-Pong Pan
+Map	Knob 5		Feedback
+Map	Knob 6		Right Ch Feedback Offset
+Map	Knob 2		Drive Type			Aux1
+Map	Knob 1		Drive Amount			Aux1
+Map	Knob 3		Envelope			Aux1
+Map	Knob 4		Wobble			Aux1
+Map	Knob 3		Filter Frequency			Aux2
+Map	Knob 4		Filter Resonance			Aux2
+Map	Knob 5		Diffuse Spread			Aux1
+Map	Knob 6		Diffuse Amount			Aux1
+Map	Knob 5		LFO Rate			Aux2
+Map	Knob 6		LFO Amount			Aux2
+Map	Knob 7		Ducking
+Map	Knob 8		Dry/Wet Balance
+
+//<	20110711
+
+
+Scope	Propellerhead Software	se.propellerheads.radicalpiano
+	
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Pad Button A4		Select Next Patch
+Map	Pad Button A8		Select Previous Patch
+
+Map	Knob 1		Character
+Map	Knob 2		Microphone 1 Type
+Map	Knob 3		Microphone and Instrument Blend
+Map	Knob 4		Microphone 2 Type
+Map	Knob 5		EQ Lo Gain
+Map	Knob 6		EQ Mid Gain
+Map	Knob 7		EQ Hi Gain
+Map	Knob 8		Master Volume
+
+
+
+Scope	Propellerhead Software	se.propellerheads.ReasonAmp
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+
+Map	Knob 1		Gain
+Map	Knob 2		Bass
+Map	Knob 3		Mid
+Map	Knob 4		Treble
+
+Map	Knob 5		Amp Switch
+Map	Knob 6		Cab Switch
+Map	Knob 7		Poweramp Gain
+Map	Knob 8		Volume
+
+
+
+
+Scope	Propellerhead Software	se.propellerheads.ReasonBassAmp
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 1		Bass
+Map	Knob 2		Middle
+Map	Knob 3		Mid Freq
+Map	Knob 4		Treble
+
+Map	Knob 5		Amp Switch
+Map	Knob 6		Cab Switch
+Map	Knob 7		Drive
+Map	Knob 8		Volume
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Synchronous
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 1		Dist Amount
+Map	Knob 2		Filter Freq
+Map	Knob 3		Filter Reso
+Map	Knob 4		Reverb Amount
+
+Map	Knob 5		Delay  Amount
+Map	Knob 6		Delay Feedback
+Map	Knob 7		DryWet
+Map	Knob 8		Master Level
+
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Audiomatic
+Map	Knob 1		Input Gain
+Map	Knob 2		Transform
+Map	Knob 3		Dry Wet
+Map	Knob 4		Volume
+
+
+Scope	Propellerhead Software	se.propellerheads.externalmidiinstrument
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 1		CC 7
+Map	Knob 2		CC 8
+Map	Knob 3		CC 9
+Map	Knob 4		CC 10
+Map	Knob 5		CC 12
+Map	Knob 6		CC 13
+Map	Knob 7		CC 70
+Map	Knob 8		CC 71
+
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Pulsar
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 1		LFO1 Rate Free
+Map	Knob 2		LFO1 Rate Synced
+Map	Knob 3		LFO1 Waveform
+Map	Knob 4		LFO1 Level
+
+Map	Knob 5		LFO2 Rate Free
+Map	Knob 6		LFO2 Rate Synced
+Map	Knob 7		LFO2 Waveform
+Map	Knob 8		LFO2 Level
+
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Europa
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 1		Osc1 Shape
+Map	Knob 2		Osc2 Shape
+Map	Knob 3		Osc3 Shape
+Map	Knob 4		Dist Amount
+
+Map	Knob 5		Filter Freq
+Map	Knob 6		Filter Reso
+Map	Knob 7		Delay Amount
+Map	Knob 8		Reverb Amount
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Grain
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 1		Position
+Map	Knob 2		Formant
+Map	Knob 3		Grain Length
+Map	Knob 4		Rate-Spacing
+
+Map	Knob 5		Osc Mod
+Map	Knob 6		Osc Level
+Map	Knob 7		Filter Freq
+Map	Knob 8		Filter Reso
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Pangea
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 1		Instrument
+Map	Knob 2		Filter_Cutoff
+Map	Knob 3		Filter_Reso
+Map	Knob 4		Filter_Env
+
+Map	Knob 5		Filter_Attack
+Map	Knob 6		Filter_Release
+Map	Knob 7		Amp_Attack
+Map	Knob 8		Amp_Release
+
+
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Humana
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 1		Instrument
+Map	Knob 2		Filter_Cutoff
+Map	Knob 3		Filter_Reso
+Map	Knob 4		Filter_Env
+
+Map	Knob 5		Filter_Attack
+Map	Knob 6		Filter_Release
+Map	Knob 7		Amp_Attack
+Map	Knob 8		Amp_Release
+
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Klang
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Knob 1		Instrument
+Map	Knob 2		Filter_Cutoff
+Map	Knob 3		Filter_Reso
+Map	Knob 4		Filter_Env
+
+Map	Knob 5		Filter_Attack
+Map	Knob 6		Filter_Release
+Map	Knob 7		Amp_Attack
+Map	Knob 8		Amp_Release

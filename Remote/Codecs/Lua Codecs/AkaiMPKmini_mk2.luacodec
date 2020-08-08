@@ -1,0 +1,15 @@
+version={1,0,0}
+
+function remote_supported_control_surfaces()
+    local surfaces = {
+        { manufacturer="Akai", model="MPK mini mk2",
+          source="AkaiMPKmini_mk2.lua", picture="AkaiMPKmini_mk2.png",
+          in_ports={{description="In Port"}},
+          out_ports={{description="Out Port", optional=true}},
+          has_keyboard=true,
+          setup_info_text="The MPKmini will be reprogrammed with settings for Reason. For this to work, you need to select MPKmini2 on the Out Port popup menu.", 
+          setup_user_action_text="The MPKmini will now be reprogrammed with settings for Reason."
+        },
+    }
+    return surfaces
+end
