@@ -1,7 +1,7 @@
 Propellerhead Remote Mapping File
 File Format Version	1.0.0
 Control Surface Manufacturer	Akai
-Control Surface Model	MPK mini mk2
+Control Surface Model	MPK mini mk3
 Map Version	1.0.0
 
 //This is a remote map template for the Akai MPKmini mk2 and Reason 10
@@ -20,7 +20,6 @@ Map	Prog Change 8		Target Previous Track
 
 Map	Pad Button A8		Select Prev Patch for Target Device
 Map	Pad Button A4		Select Next Patch for Target Device
-
 
 
 Scope	Propellerheads	Master Keyboard
@@ -1169,7 +1168,7 @@ Map	Knob 8		Dry/Wet Balance
 
 
 Scope	Propellerhead Software	se.propellerheads.radicalpiano
-	
+
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
 Map	Pad Button A4		Select Next Patch
