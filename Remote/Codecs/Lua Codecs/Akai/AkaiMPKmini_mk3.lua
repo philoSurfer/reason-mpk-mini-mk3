@@ -54,14 +54,14 @@ function remote_init()
 
     local inputs={
 
-        {pattern="b? 02 xx", name="Knob 1"},
-        {pattern="b? 03 xx", name="Knob 2"},
-        {pattern="b? 04 xx", name="Knob 3"},
-        {pattern="b? 05 xx", name="Knob 4"},
-        {pattern="b? 06 xx", name="Knob 5"},
-        {pattern="b? 07 xx", name="Knob 6"},
-        {pattern="b? 08 xx", name="Knob 7"},
-        {pattern="b? 09 xx", name="Knob 8"},
+        {pattern="b? 46 xx", name="Knob 1"},
+        {pattern="b? 47 xx", name="Knob 2"},
+        {pattern="b? 48 xx", name="Knob 3"},
+        {pattern="b? 49 xx", name="Knob 4"},
+        {pattern="b? 4A xx", name="Knob 5"},
+        {pattern="b? 4B xx", name="Knob 6"},
+        {pattern="b? 4C xx", name="Knob 7"},
+        {pattern="b? 4D xx", name="Knob 8"},
 
         -- Read notes from keyboard
         {pattern="8? xx yy", name="Keyboard", value="0", note="x", velocity="64"},
@@ -116,19 +116,21 @@ end
 
 
 function remote_probe()
+  return {
 
-return {
-	request="f0 7e 7f 06 01 f7",
-	response="F0 7E 7F 06 02 47 26 00 19 00 22 00 22 00 00 00 00 00 00 00 04 00 04 00 03 00 78 00 2C 2D 2E 2F 30 F7"
-	}
+	  request="f0 7e 7f 06 01 f7",
+    response="F0 7E 7F 06 02 47 26 00 19 00 22 00 22 00 00 00 00 00 00 00 04 00 04 00 03 00 78 00 2C 2D 2E 2F 30 F7"
+}
 end
 
 
 function remote_prepare_for_use()
-    return {
-            --Write Reason settings to RAM.
-			remote.make_midi("F0 47 00 26 64 00 6D 00 00 00 04 00 00 04 00 00 00 03 00 78 00 00 00 01 02 0B 01 24 00 14 00 25 01 15 00 26 02 16 00 27 03 17 00 28 04 18 00 29 05 19 00 2A 06 1A 00 2B 07 1B 00 2C 08 1C 00 2D 09 1D 00 2E 0A 1E 00 2F 0B 1F 00 30 0C 20 00 31 0D 21 00 32 0E 22 00 33 0F 23 00 02 00 7F 03 00 7F 04 00 7F 05 00 7F 06 00 7F 07 00 7F 08 00 7F 09 00 7F 0C F7"),
-            --Change to preset 1.
-            -- remote.make_midi("F0 47 7F 7C 62 00 01 01 F7")
-        }
+  return {
+
+    --Write Reason settings to RAM.
+		--remote.make_midi("F0 47 00 26 64 00 6D 00 00 00 04 00 00 04 00 00 00 03 00 78 00 00 00 01 02 0B 01 24 00 14 00 25 01 15 00 26 02 16 00 27 03 17 00 28 04 18 00 29 05 19 00 2A 06 1A 00 2B 07 1B 00 2C 08 1C 00 2D 09 1D 00 2E 0A 1E 00 2F 0B 1F 00 30 0C 20 00 31 0D 21 00 32 0E 22 00 33 0F 23 00 02 00 7F 03 00 7F 04 00 7F 05 00 7F 06 00 7F 07 00 7F 08 00 7F 09 00 7F 0C F7"),
+
+    --Change to preset 1.
+    -- remote.make_midi("F0 47 7F 7C 62 00 01 01 F7"),
+}
 end
