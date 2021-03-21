@@ -1347,3 +1347,19 @@ Map	Knob 5		Filter_Attack
 Map	Knob 6		Filter_Release
 Map	Knob 7		Amp_Attack
 Map	Knob 8		Amp_Release
+
+
+Scope	Robotic Bean	com.roboticbean.ElectroClap
+// Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	_output_		Note On
+//Map	_output_		Fill In Active
+//Map	_output_		Synchro Start Active
+//Map	_control_		Stereo
+Map	Knob 1		Frequency
+Map	Knob 2		Decay
+Map	Knob 3		Ambience Mix
+//Map	_control_		Pattern
+//Map	_control_		Fill In
+//Map	_control_		Synchro Start
+//Map	_control_		Intensity
+//Map	_control_		Volumee

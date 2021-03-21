@@ -75,23 +75,23 @@ function remote_init()
 
         -- pad CCs
 
-        {pattern="b? 14 xx", name="Pad Button A1", value="1"},
-        {pattern="b? 15 xx", name="Pad Button A2", value="1"},
-        {pattern="b? 16 xx", name="Pad Button A3", value="1"},
-        {pattern="b? 17 xx", name="Pad Button A4", value="1"},
-        {pattern="b? 18 xx", name="Pad Button A5", value="1"},
-        {pattern="b? 19 xx", name="Pad Button A6", value="1"},
-        {pattern="b? 1A xx", name="Pad Button A7", value="1"},
-        {pattern="b? 1B xx", name="Pad Button A8", value="1"},
+        {pattern="b? 10 xx", name="Pad Button A1", value="1"},
+        {pattern="b? 11 xx", name="Pad Button A2", value="1"},
+        {pattern="b? 12 xx", name="Pad Button A3", value="1"},
+        {pattern="b? 13 xx", name="Pad Button A4", value="1"},
+        {pattern="b? 14 xx", name="Pad Button A5", value="1"},
+        {pattern="b? 15 xx", name="Pad Button A6", value="1"},
+        {pattern="b? 16 xx", name="Pad Button A7", value="1"},
+        {pattern="b? 17 xx", name="Pad Button A8", value="1"},
 
-        {pattern="b? 1C xx", name="Pad Button B1", value="1"},
-        {pattern="b? 1D xx", name="Pad Button B2", value="1"},
-        {pattern="b? 1E xx", name="Pad Button B3", value="1"},
-        {pattern="b? 1F xx", name="Pad Button B4", value="1"},
-        {pattern="b? 20 xx", name="Pad Button B5", value="1"},
-        {pattern="b? 21 xx", name="Pad Button B6", value="1"},
-        {pattern="b? 22 xx", name="Pad Button B7", value="1"},
-        {pattern="b? 23 xx", name="Pad Button B8", value="1"},
+        {pattern="b? 18 xx", name="Pad Button B1", value="1"},
+        {pattern="b? 19 xx", name="Pad Button B2", value="1"},
+        {pattern="b? 1A xx", name="Pad Button B3", value="1"},
+        {pattern="b? 1B xx", name="Pad Button B4", value="1"},
+        {pattern="b? 1C xx", name="Pad Button B5", value="1"},
+        {pattern="b? 1D xx", name="Pad Button B6", value="1"},
+        {pattern="b? 1E xx", name="Pad Button B7", value="1"},
+        {pattern="b? 1F xx", name="Pad Button B8", value="1"},
 
         -- pad Program Change
         {pattern="C? 00", name="Prog Change 1", value="1"},
@@ -118,7 +118,7 @@ end
 function remote_probe()
   return {
 
-	  request="f0 7e 7f 06 01 f7",
+	  request="F0 7E 7F 06 01 F7",
     response="F0 7E 7F 06 02 47 26 00 19 00 22 00 22 00 00 00 00 00 00 00 04 00 04 00 03 00 78 00 2C 2D 2E 2F 30 F7"
 }
 end
