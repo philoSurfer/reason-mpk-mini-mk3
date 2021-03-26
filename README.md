@@ -18,7 +18,8 @@ sudo sh ./install-macOS.sh;
 Once installed, restart Reason and proceed to plugin your MPK Mini MK3 and mannualy add it via the settings
 
 
-# Insall for Windows (I need help with a windows script to install, as I do not have a windows machine to test on.PRs accepeted :) 
+# Install for Windows - NOT WORKING
+I need help with a windows script to install, as I do not have a windows machine to test on.PRs accepeted
 
 
 # Contribution - Remote mapping 
