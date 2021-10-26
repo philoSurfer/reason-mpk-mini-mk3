@@ -32,16 +32,17 @@ The following is the current "Prog Change" mapping
 
 | Button | Function|
 | :---: | ------|
-| __A1__ | Stop |
-| __A2__ | Play |
-| __A3__ | Record |
-| __A4__ | Target Next Track |
-| __A5__ | Click On/Off |
-| __A6__ | Loop On/Off |
-| __A7__ | Auto-quantize |
-| __A8__ | Target Previous Track |
-| __Button__ | __Function__ |
-| __B9__ | Select Prev Patch for Target Device |
+| --  | --- Bank A ---  |
+| __A1__  |  Stop  |
+| __A2__  |  Play  |
+| __A3__  |  Record |
+| __A4__  |  Target Next Track |
+| __A5__  |  Click On/Off |
+| __A6__  |  Loop On/Off  |
+| __A7__  |  Auto-quantize  |
+| __A8__  |  Target Previous Track  |
+| -- | --- Bank B --- |
+| __B9__  |  Select Prev Patch for Target Device  |
 | __B10__ | |
 | __B11__ | |
 | __B12__ | |
