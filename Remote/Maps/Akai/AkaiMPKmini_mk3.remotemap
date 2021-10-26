@@ -18,8 +18,8 @@ Map	Prog Change 6		Loop On/Off
 Map	Prog Change 7		Auto-quantize
 Map	Prog Change 8		Target Previous Track
 
-Map	Pad Button A8		Select Prev Patch for Target Device
-Map	Pad Button A4		Select Next Patch for Target Device
+Map	Prog Change 9		Select Prev Patch for Target Device
+Map	Prog Change 13		Select Next Patch for Target Device
 
 
 Scope	Propellerheads	Master Keyboard
