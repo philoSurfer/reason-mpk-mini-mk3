@@ -11,7 +11,7 @@ Copy and paste the following command to install the appropriate Lua and Remote f
 
 You will be _prompted for your macOS user password_ to move the files to the correct location. This is a one time event.
 ```
-git clone git@github.com:philoSurfer/reason-mpk-mini-mk3.git && cd reason-mpk-mini-mk3; chmod +x install-macOS.sh; sudo sh ./install-macOS.sh;
+git clone https://github.com/philoSurfer/reason-mpk-mini-mk3.git && cd reason-mpk-mini-mk3; chmod +x install-macOS.sh; sudo sh ./install-macOS.sh;
 ```
 
 Once installed, restart Reason and proceed to plugin your MPK Mini MK3 and mannualy add it via the settings
