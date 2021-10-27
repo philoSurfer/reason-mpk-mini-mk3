@@ -1333,8 +1333,6 @@ Map	Knob 7		Amp_Attack
 Map	Knob 8		Amp_Release
 
 
-
-
 Scope	Propellerhead Software	se.propellerheads.Klang
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
@@ -1363,3 +1361,11 @@ Map	Knob 3		Ambience Mix
 //Map	_control_		Synchro Start
 //Map	_control_		Intensity
 //Map	_control_		Volumee
+
+
+Scope	Reveal Sound	com.revealSound.ReSpire
+// Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Mix Osc 1
+Map	Knob 2		Mix Osc 2
+Map	Knob 3		Mix Osc 3
+Map	Knob 4		Mix Osc 4
