@@ -18,8 +18,13 @@ Once installed, restart Reason and proceed to plugin your MPK Mini MK3 and mannu
 
 
 # Install for Windows - NOT WORKING
-I need help with a windows script to install, as I do not have a windows machine to test on.PRs accepeted
+Copy and paste the following command to install the appropriate Lua and Remote files.
 
+```
+git clone https://github.com/philoSurfer/reason-mpk-mini-mk3.git
+cd reason-mpk-mini-mk3
+install-windows.bat
+```
 
 # Contribution - Remote mapping
 If you would like to work on adding remote maps, feel free to edit the appropriate files and submit PRs.   
