@@ -17,7 +17,7 @@ git clone https://github.com/philoSurfer/reason-mpk-mini-mk3.git && cd reason-mp
 Once installed, restart Reason and proceed to plugin your MPK Mini MK3 and mannualy add it via the settings
 
 
-# Install for Windows - NOT WORKING
+# Install for Windows
 Copy and paste the following command to install the appropriate Lua and Remote files.
 
 ```
