@@ -7,11 +7,11 @@ echo '\n';
 echo '---COPYING--------------------------+++- ';
 echo '\n';
 
-cp ./Remote/Codecs/Lua\ Codecs/Akai/*.* /Library/Application\ Support/Propellerhead\ Software/Remote/Codecs/Lua\ Codecs/Akai/;
+cp ./Remote/Codecs/Lua\ Codecs/Akai/*.* ~/Library/Application\ Support/Propellerhead\ Software/Remote/Codecs/Lua\ Codecs/Akai/;
 echo 'Lua Codecs copied.';
 echo '\n';
 
-cp ./Remote/Maps/Akai/*.* /Library/Application\ Support/Propellerhead\ Software/Remote/Maps/Akai/;
+cp ./Remote/Maps/Akai/*.* ~/Library/Application\ Support/Propellerhead\ Software/Remote/Maps/Akai/;
 echo 'Remote Maps copied.';
 echo '\n';
 
