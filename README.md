@@ -1,9 +1,10 @@
 # reason-mpk-mini-mk3
-Reason Remote files for Akai MPK Mini MKIII
+Better Reason Remote files for Akai MPK Mini MKIII
 
 
 # Objectives
-* Create a working set of remote files for the new Akai MPK Mini MKIII, which currently does not have a supported set of mappings.  The MKII mappings do not work.
+* Create a better working set of remote files for the Akai MPK Mini MKIII due to the default mappings provided by Reason Studios lack functionality with the knobs and pads.  
+
 
 
 # Install for macOS
