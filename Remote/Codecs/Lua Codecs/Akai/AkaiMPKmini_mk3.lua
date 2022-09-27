@@ -1,19 +1,19 @@
 
 function remote_init()
     local items={
-    {name="Keyboard", input="keyboard"},
-		{name="Pitch Bend", input="value", min=0, max=16383},
-		{name="Mod Up", input="value", min=0, max=127},
-		{name="Mod Down", input="value", min=0, max=127},
-    {name="Sustain", input="value", min=0, max=127},
-		{name="Knob 1", input="value", min=0, max=127},
-		{name="Knob 2", input="value", min=0, max=127},
-		{name="Knob 3", input="value", min=0, max=127},
-		{name="Knob 4", input="value", min=0, max=127},
-		{name="Knob 5", input="value", min=0, max=127},
-		{name="Knob 6", input="value", min=0, max=127},
-		{name="Knob 7", input="value", min=0, max=127},
-		{name="Knob 8", input="value", min=0, max=127},
+        {name="Keyboard", input="keyboard"},
+        {name="Pitch Bend", input="value", min=0, max=16383},
+        {name="Mod Up", input="value", min=0, max=127},
+        {name="Mod Down", input="value", min=0, max=127},
+        {name="Sustain", input="value", min=0, max=127},
+        {name="Knob 1", input="delta"},
+        {name="Knob 2", input="delta"},
+        {name="Knob 3", input="delta"},
+        {name="Knob 4", input="delta"},
+        {name="Knob 5", input="delta"},
+        {name="Knob 6", input="delta"},
+        {name="Knob 7", input="delta"},
+        {name="Knob 8", input="delta"},
 
         {name="Pad Button A1", input="button"},
         {name="Pad Button A2", input="button"},
@@ -53,15 +53,14 @@ function remote_init()
     remote.define_items(items)
 
     local inputs={
-
-        {pattern="b? 46 xx", name="Knob 1"},
-        {pattern="b? 47 xx", name="Knob 2"},
-        {pattern="b? 48 xx", name="Knob 3"},
-        {pattern="b? 49 xx", name="Knob 4"},
-        {pattern="b? 4A xx", name="Knob 5"},
-        {pattern="b? 4B xx", name="Knob 6"},
-        {pattern="b? 4C xx", name="Knob 7"},
-        {pattern="b? 4D xx", name="Knob 8"},
+        {pattern="b? 46 <0y??>x", name="Knob 1", value="x-(16*y)"},
+        {pattern="b? 47 <0y??>x", name="Knob 2", value="x-(16*y)"},
+        {pattern="b? 48 <0y??>x", name="Knob 3", value="x-(16*y)"},
+        {pattern="b? 49 <0y??>x", name="Knob 4", value="x-(16*y)"},
+        {pattern="b? 4A <0y??>x", name="Knob 5", value="x-(16*y)"},
+        {pattern="b? 4B <0y??>x", name="Knob 6", value="x-(16*y)"},
+        {pattern="b? 4C <0y??>x", name="Knob 7", value="x-(16*y)"},
+        {pattern="b? 4D <0y??>x", name="Knob 8", value="x-(16*y)"},
 
         -- Read notes from keyboard
         {pattern="8? xx yy", name="Keyboard", value="0", note="x", velocity="64"},
@@ -74,7 +73,6 @@ function remote_init()
         {pattern="b? 40 xx", name="Sustain"},
 
         -- pad CCs
-
         {pattern="b? 10 xx", name="Pad Button A1", value="1"},
         {pattern="b? 11 xx", name="Pad Button A2", value="1"},
         {pattern="b? 12 xx", name="Pad Button A3", value="1"},
@@ -119,7 +117,9 @@ function remote_probe()
   return {
 
 	  request="F0 7E 7F 06 01 F7",
-    response="F0 7E 7F 06 02 47 26 00 19 00 22 00 22 00 00 00 00 00 00 00 04 00 04 00 03 00 78 00 2C 2D 2E 2F 30 F7"
+    -- Mfg ID: '0x47' --> AKAI
+    -- Dev ID: '0x49' --> MPK mini mk.III
+    response="F0 7E 7F 06 02 47 49 00 19 00 01 02 06 00 00 00 00 00 45 38 32 31 31 30 32 34 39 33 31 37 36 32 32 00 F7"
 }
 end
 
@@ -127,10 +127,8 @@ end
 function remote_prepare_for_use()
   return {
 
-    --Write Reason settings to RAM.
-		--remote.make_midi("F0 47 00 26 64 00 6D 00 00 00 04 00 00 04 00 00 00 03 00 78 00 00 00 01 02 0B 01 24 00 14 00 25 01 15 00 26 02 16 00 27 03 17 00 28 04 18 00 29 05 19 00 2A 06 1A 00 2B 07 1B 00 2C 08 1C 00 2D 09 1D 00 2E 0A 1E 00 2F 0B 1F 00 30 0C 20 00 31 0D 21 00 32 0E 22 00 33 0F 23 00 02 00 7F 03 00 7F 04 00 7F 05 00 7F 06 00 7F 07 00 7F 08 00 7F 09 00 7F 0C F7"),
-
-    --Change to preset 1.
-    -- remote.make_midi("F0 47 7F 7C 62 00 01 01 F7"),
+    -- Write Reason settings to RAM.
+    -- Write code:'0x64'
+		remote.make_midi("F0 47 7F 49 64 01 76 00 52 65 61 73 6F 6E 31 32 00 00 00 00 00 00 00 00 09 01 00 04 00 02 04 00 01 00 03 00 78 00 00 00 00 02 01 01 24 00 10 25 01 11 26 02 12 27 03 13 28 04 14 29 05 15 2A 06 16 2B 07 17 2C 08 18 2D 09 19 2E 0A 1A 2F 0B 1B 30 0C 1C 31 0D 1D 32 0E 1E 33 0F 1F 01 46 00 7F 4B 6E 6F 62 31 00 00 00 00 00 00 00 00 00 00 00 01 47 00 7F 4B 6E 6F 62 32 00 00 00 00 00 00 00 00 00 00 00 01 48 00 7F 4B 6E 6F 62 33 00 00 00 00 00 00 00 00 00 00 00 01 49 00 7F 4B 6E 6F 62 34 00 00 00 00 00 00 00 00 00 00 00 01 4A 00 7F 4B 6E 6F 62 35 00 00 00 00 00 00 00 00 00 00 00 01 4B 00 7F 4B 6E 6F 62 36 00 00 00 00 00 00 00 00 00 00 00 01 4C 00 7F 4B 6E 6F 62 37 00 00 00 00 00 00 00 00 00 00 00 01 4D 00 7F 4B 6E 6F 62 38 00 00 00 00 00 00 00 00 00 00 00 0C F7"),
 }
 end
